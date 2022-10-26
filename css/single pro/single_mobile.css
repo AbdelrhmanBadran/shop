@@ -99,7 +99,7 @@ nav{
 .link-home{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.8rem ;
+    font-size: 0.6rem ;
     font-weight: 500;
     color: blueviolet;
 }
@@ -109,7 +109,7 @@ nav{
 .links{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.8rem ;
+    font-size: 0.6rem ;
     font-weight: 500;
     color:#666565;
 }

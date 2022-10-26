@@ -99,7 +99,7 @@ nav{
 .link-home{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.8rem ;
+    font-size: 0.6rem ;
     font-weight: 500;
     color: blueviolet;
 }
@@ -109,7 +109,7 @@ nav{
 .links{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.8rem ;
+    font-size: 0.6rem ;
     font-weight: 500;
     color:#666565;
 }
@@ -195,8 +195,8 @@ nav{
 }
 .selectcountry{
     margin-top: 10px;
-    margin-left: 30px;
-    width: 430px;
+    margin-left: 0px;
+    width: 100%;
     padding: 10px;
 }
 .last{
@@ -204,15 +204,15 @@ nav{
     margin-top:30px ;
 }
 .firsttt{
-    margin-left: 20px;
+    margin-left: 0px;
 }
 .lasttt{
-    margin-left: 165px;
+    margin-left: 130px;
 }
 
 .fname{
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 0px;
     padding:8px;
     width: 42%;
 }
@@ -225,17 +225,17 @@ nav{
 }
 .comp{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 .com{
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 0px;
     padding: 10px;
-    width: 430px;
+    width: 100%;
 }
 .address{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 0px;
     
 }
 .add{
@@ -243,12 +243,12 @@ nav{
 }
 .ads{
     padding: 10px;
-    width: 430px;
+    width: 100%;
 }
 .adc{
     margin-top: 15px;
     padding: 10px;
-    width: 430px;
+    width: 100%;
 }
 .statecoun{
     margin-top: 30px;
@@ -304,11 +304,11 @@ nav{
 }
 .notes{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 .tnotes{
     margin-top: 10px;
-    width: 430px;
+    width: 100%;
 }
 .border2{
     margin-left: 0px;
@@ -326,11 +326,11 @@ nav{
     font-weight: bold; 
 }
 .hhh{
-    margin-left: 45px;
+    margin-left: 0px;
     margin-top: 80px;
 }
 .couppp{
-    margin-left: 45px;
+    margin-left: 0px;
     margin-top: 10px;
     padding: 8px;
     width: 250px;

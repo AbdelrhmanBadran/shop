@@ -99,7 +99,7 @@ nav{
 .link-home{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.8rem ;
+    font-size: 0.6rem ;
     font-weight: 500;
     color: blueviolet;
 }
@@ -109,7 +109,7 @@ nav{
 .links{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.8rem ;
+    font-size: 0.6rem ;
     font-weight: 500;
     color:#666565;
 }
@@ -142,11 +142,11 @@ nav{
 }
 
 table{
-    width: 100%;
-    margin: 100px auto;
+    /* width:50%; */
+    margin: 100px 0px;
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    height: auto;
+    height: 300px;
     /* background-color: yellowgreen; */
 }
 
@@ -160,13 +160,13 @@ table{
 td, th{
     border: 1px solid #dddddd;
     text-align: center;
-    padding: 5px;
+    padding: 4px;
 }
 
 .rem{
     background-color: blueviolet;
     color: white;
-    padding: 10px 10px;
+    padding: 5px 5px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -250,8 +250,8 @@ td, th{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    width: 100%;
-    margin: 100px auto;
+    width: 90%;
+    margin: 100px autopx;
     line-height: 50px;
     /* background-color: yellowgreen; */
 }
@@ -262,7 +262,7 @@ td, th{
 }
 
 .L-upper .btn1{
-    width: 100%;
+    width: 95%;
     height: 50px;
     background-color: blueviolet;
     border: 1px solid blueviolet;
@@ -273,6 +273,7 @@ td, th{
     letter-spacing: 2px;
     margin: 10% 5px;
     cursor: pointer;
+    margin: 5px 5px;
     transition: 0.5s all;
 }
 .L-upper .btn1:hover{
@@ -282,7 +283,7 @@ td, th{
 
 
 .L-upper .btn2{
-    width: 100%;
+    width: 95%;
     height: 50px;
     background-color: #fff;
     border: none;
@@ -294,6 +295,8 @@ td, th{
     border: 1px solid blueviolet;
     cursor: pointer;
     transition: 0.5s all;
+    margin: 5px 5px;
+
 }
 .L-upper .btn2:hover{
     background-color:  blueviolet;
@@ -324,7 +327,7 @@ td, th{
     color: #fff;
     word-spacing:1px;
     letter-spacing: 0px;
-    margin: 0 50%;
+    margin: 0px 20px;
     /* display: inline-block; */
     cursor: pointer;
     transition: 0.5s all;
@@ -381,6 +384,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-color: #000; */
 }
 footer .cols{
     width: 100%;
