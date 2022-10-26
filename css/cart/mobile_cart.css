@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    
+}
+body{
+    font-size: 16px;
+}
+                    /*NavBar*/
+.upper-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    padding: 50px 0;
+    /* background-color: aqua; */
+}
+
+.upper-section form input{
+    width: 80%;
+    height: 20px;
+    border-radius: 30px;
+    padding: 20px 60px;
+    color: #ccc;
+    border: none;
+    background-color: rgba(204, 204, 204, .1);
+}
+.upper-section form input:focus{
+    outline: 0;
+}
+
+.upper-section .glass{
+    margin-left: -50px;
+    color:#ccc;
+}
+.upper-section h2{
+    /* background-color: red; */
+    color: rgb(86, 86, 86);
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+    border: 5px solid;
+    height: 90px;
+    padding: 10px 10px;
+}
+.upper-section .icons{
+    /* margin-right: -100px; */
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.icons::after{
+    content: "";
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: blueviolet;
+    position: absolute;
+    right: 13%;
+    top: -10px;
+}
+.icon{
+    display: inline-block;
+    color: #666565;
+    font-size: 15px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.icon:hover{
+    color: #000;
+    
+}
+.icons span{
+    color: #fff;
+    position: absolute;
+    top:-9px;
+    right: 13.8%;
+    z-index: 1;
+    font-size: 0.7rem;
+}
+nav{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    /* background-color: yellowgreen; */
+}
+.link-home{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem ;
+    font-weight: 500;
+    color: blueviolet;
+}
+.link-home:hover{
+    color: purple;
+}
+.links{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem ;
+    font-weight: 500;
+    color:#666565;
+}
+.links:hover{
+    color: purple;
+
+}
+
+/* Home / Contact */
+
+.parent1{
+    background-color: #DCDCDC	;
+    height: 50px;
+}
+
+.son1{
+    text-decoration: none;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.ho{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.ca{
+    text-decoration: none;
+    color: black;
+}
+
+table{
+    width: 100%;
+    margin: 100px auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    height: auto;
+    /* background-color: yellowgreen; */
+}
+
+.tableheader{
+    /* margin: 2000px; */
+    border: 1px solid #dddddd;
+    text-align: center;
+
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+}
+
+.rem{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    height: 50px;
+    width: 100%;
+    /* background-color: #666565; */
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 0 auto;
+    /* background-color: #ccc; */
+    
+}
+
+.wrapper span{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 7px 0;
+    
+}
+.minus{
+    border: 1px solid blueviolet;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    padding-top: 4px;
+    border-radius: 0 0 3px 3px ;
+    transition: 0.5s all;
+    font-size: 10px;
+
+    
+}
+.minus:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+.plus{
+    display: inline-block;
+    border: 1px solid blueviolet;
+    border-radius: 3px 3px 0 0 ;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    padding-top: 5px;
+    transition: 0.5s all;
+    font-size: 10px;
+
+}
+.plus:hover{
+    background-color: blueviolet;
+    color: #fff;
+
+}
+.num{
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 10px;
+    width: 35%;
+    height: 100%;
+    padding-top: 5px;
+}
+.proceed{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 100px auto;
+    line-height: 50px;
+    /* background-color: yellowgreen; */
+}
+.left{
+    /* background-color: #666565; */
+    margin-left:  0px;
+    width: 100%;
+}
+
+.L-upper .btn1{
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing:2px;
+    letter-spacing: 2px;
+    margin: 10% 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.L-upper .btn1:hover{
+    background-color: #fff;
+    color: blueviolet;
+}
+
+
+.L-upper .btn2{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: blueviolet;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.L-upper .btn2:hover{
+    background-color:  blueviolet;
+    color: #fff;
+}
+.L-lower{
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+.L-lower h1{
+    font-weight: 600;
+}
+.L-lower input{
+    width: 95%;
+    height: 50px;
+    border: 1px solid #DCDCDC;
+    outline: none;
+    padding: 5px;
+    margin: 10px 0;
+}
+.L-lower button{
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing:1px;
+    letter-spacing: 0px;
+    margin: 0 50%;
+    /* display: inline-block; */
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.L-lower button:hover{
+    background-color: #fff;
+    color: blueviolet;
+}
+.right{
+    width: 100%;
+    line-height: 60px;
+    margin-right: 0px;
+    /* background-color: #666565; */
+}
+.right h1{
+    margin-left: 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+    
+}
+.total{
+    display: flex;
+    justify-content: space-around;
+}
+.right button{
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing:2px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.right button:hover{
+    background-color: #fff;
+    color: blueviolet;
+}
+
+
+
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 80%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .cols{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.cols img{
+    width: 350px;
+    height: 200px;
+}
+.cols i{
+    color: blueviolet;
+}
+.cols div h3{
+    font-weight: 400;
+    color: blueviolet;
+}
+.cols p{
+    color: #666565;
+}
+.cols h1{
+    font-weight: 500;
+    letter-spacing: -2px;
+    font-size: 1.5rem;
+}
+.cols div div{
+    height: 4rem;
+    overflow: hidden;
+}
+.cols button{
+    width: 5rem;
+    height: 3rem;
+    background-color: rgba(86, 20, 148, 0.906);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.3rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: 0.2s all;
+    margin-left: -6px;
+    /* margin-top: 10px */
+}
+.cols button:hover{
+    transform:translatey(-5px);
+    box-shadow:0px 3px 5px 3px rgba(6, 0, 12, 0.567) ;
+}
+
+.cols input{
+    width: 8rem;
+    height: 3rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1.1rem;
+    color: #000;
+}
+.cols input:focus{
+    outline: 0;
+}
+footer span{
+    color: blueviolet;
+    font-size: 1.3rem;
+}
+.copyright{
+    margin: 50px 0;
+    color: #666565;
+    font-size: 1.1rem;
+}
