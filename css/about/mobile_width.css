@@ -10,6 +10,8 @@ body{
     font-size: 16px;
 }
                     /*NavBar*/
+
+
 .upper-section{
     display: flex;
     flex-direction: column;
@@ -37,7 +39,13 @@ body{
     margin-left: -50px;
     color:#ccc;
 }
+.upper-section div{
+    width: 100%;
+    /* background-color: yellowgreen; */
+    margin-left: 0px !important;
+}
 .upper-section h2{
+    width: 100%;
     /* background-color: red; */
     color: rgb(86, 86, 86);
     text-transform: capitalize;
@@ -45,8 +53,9 @@ body{
     font-weight: 300;
     font-size: 1rem;
     border: 5px solid;
-    height: 80px;
+    height: 90px;
     padding: 10px 10px;
+    /* margin-right: 50px; */
 }
 .upper-section .icons{
     /* margin-right: -100px; */
@@ -178,7 +187,7 @@ article .main{
 }
 .sale{
     width: 80%;
-    height: 100px;
+    height: 150px;
     line-height: 15px;
     /* background-color: yellowgreen; */
     margin-top: 80px;
@@ -220,8 +229,8 @@ article .main{
     margin: 10px auto;
 }
 .sale2 img{
-    height: 50%;
-    width: 50%;
+    height: 90%;
+    width: 90%;
     border-radius: 50%;
 
 }

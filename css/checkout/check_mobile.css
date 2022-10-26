@@ -375,13 +375,16 @@ nav{
     margin-top: 40px;
     margin-left: 00px;
     display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
 }
 .productt{
     font-size: 15px;
+    margin-left: 0;
     font-weight: bold;
 }
 .totall{
-    margin-left: 300px;
+    margin-left: 0px;
     font-size: 15px;
     font-weight: bold;
 }
@@ -392,40 +395,49 @@ nav{
 }
 .topup{
     display: flex;
+    justify-content: space-between;
+    /* background-color: yellowgreen; */
 }
 .polo{
     display: flex;
+    justify-content: space-between;
+    /* background-color: #666565; */
+    
 }
 .toppp{
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    /* background-color: rgb(51, 75, 3); */
+    width: 50%;
     margin-left: 0px;
 }
 .pricee{
-    margin-top: 15px;
-    margin-left: 228px;
+    /* margin-top: 15px; */
+    margin-left: 0px;
 }
 .pricee2{
-    margin-top: 15px;
-    margin-left: 256px;
+    /* margin-top: 15px; */
+    margin-left: 0px;
 }
 .cartt{
     display: flex;
+    justify-content: space-between;
 }
 .toppp2{
-    margin-top: 15px;
-    margin-left: 0px;
     font-weight: bold;
+    width: 50%;
+    margin-left: 0px;
 }
 .pricc{
     margin-top: 15px;
-    margin-left: 248px;
+    margin-left: 0px;
 }
 .order22{
     display: flex;
+    justify-content: space-between;
 }
 .topzz{
     margin-top: 15px;
-    margin-left: 258px;
+    margin-left: 0px;
     font-weight: bold;
 }
 .direct{
