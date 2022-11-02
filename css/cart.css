@@ -156,6 +156,9 @@ td, th{
     text-align: center;
     padding: 40px;
 }
+.img{
+    width: 200px;
+}
 
 .rem{
     background-color: blueviolet;
